@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = htmlspecialchars($_POST['subject']);
 
     // Tentukan alamat email penerima
-    $to = "your-email@example.com";  // Ganti dengan alamat email tujuan
+    $to = "syahnianurjamalia@gmail.com";
 
     // Tentukan subjek email
     $subject_email = "Pendaftaran Jasa Les Online - $name";
